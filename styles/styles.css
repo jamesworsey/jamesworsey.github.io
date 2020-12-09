@@ -126,14 +126,18 @@ footer {
     }
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:750px){
     .card {
         flex-direction: column;
+        height: 20rem;
+        width: 10rem;
+        padding: 2.5rem;
     }
 
     .cardImg {
         min-width: 10rem;
         max-width: 10rem;
+        transform: translateX(0rem);
     }
 }
 
