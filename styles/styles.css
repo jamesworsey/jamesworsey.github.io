@@ -128,7 +128,7 @@ footer {
     background-color: rgb(228, 252, 96);
 }
 
-/*change sizes if screen is smaller*/
+/*Scaling*/
 @media screen and (max-width:1000px){
     nav ul {
         max-width: 600px;
