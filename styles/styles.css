@@ -153,7 +153,7 @@ footer {
     .card {
         flex-direction: column;
         height: 400px;
-        width: 300px;
+        width: 260px;
         padding: 40px;
     }
 
@@ -161,7 +161,7 @@ footer {
         min-width: 300px;
         max-width: 300px;
         max-height: 250px;
-        transform: translateX(-0.2rem);
+        transform: translate(-0.1rem, -1.5rem);
     }
 }
 
