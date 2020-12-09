@@ -166,4 +166,27 @@ footer {
     }
 }
 
+@media screen and (max-width:479px){
+    nav ul {
+        max-width: 280px;
+    }
+    nav a {
+        width: 45px;
+    }
+    .card {
+        flex-direction: column;
+        height: 300px;
+        width: 180px;
+        padding: 40px;
+    }
+
+    .cardImg {
+        min-width: 208px;
+        max-width: 208px;
+        max-height: 117px;
+        min-height: 117px;
+        transform: translate(-0.1rem, -1.5rem);
+    }
+}
+
 /* Card */
