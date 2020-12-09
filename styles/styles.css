@@ -114,4 +114,26 @@ footer {
     background-color: rgb(228, 252, 96);
 }
 
+/*change sizes if screen is smaller*/
+@media screen and (max-width:1000px){
+    .card {
+        max-width: 25rem;
+    }
+
+    .cardImg {
+        min-width: 10rem;
+        max-width: 10rem;
+    }
+}
+
+@media screen and (max-width:850px){
+    .card {
+    }
+
+    .cardImg {
+        min-width: 10rem;
+        max-width: 10rem;
+    }
+}
+
 /* Card */
